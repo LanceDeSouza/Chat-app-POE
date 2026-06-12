@@ -17,6 +17,24 @@ Part 2: QuickChat Messaging
 - Send / Store / Disregard options
 - JSON file storage for messages
 
+Part 3: Store Data and Display Task Report
+
+- Five dynamic arrays for message management:
+  - Sent Messages
+  - Stored Messages
+  - Disregarded Messages
+  - Message Hashes
+  - Message IDs
+- Stored Messages submenu with six functions:
+  - Display sender and recipient of all stored messages
+  - Display the longest stored message
+  - Search for a message by ID
+  - Search all messages by recipient
+  - Delete a message using its hash
+  - Display full report (hash, recipient, message)
+- Read stored messages from JSON file into arrays
+- Populate test data with no hard-coding
+
 Files
 - `Login.java` - User authentication
 - `Message.java` - Message handling
